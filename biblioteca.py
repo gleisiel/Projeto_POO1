@@ -36,7 +36,7 @@ class Biblioteca:
                             resposta=f'Livro "{livro.titulo}"'
                         break
                 else:
-                    resposta=f'Livro "{livro.titulo}" já está emprestado'
+                    resposta=f'Livro "{livro.titulo}" já está emprestados'
             return resposta
 
     def devolver_livros(self,id):
